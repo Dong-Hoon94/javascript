@@ -43,7 +43,7 @@ let commpareB = 1 != "1"; //같지 않는다는 부호는 앞에 ! 삽입하면�
 
 let commparec = "2"; //타입에서 숫자를 넣어놨다가 문자로 넣어도 상관없음
 //                     -> 동적 타입언어 유연성이 있지만 에러나는 확률이 높음
-//                        (나중에 타입스트립트로 배워야하는 이유)
+//                       (나중에 타입스트립트로 배워야하는 이유)
 console.log(typeof commparec); //string
 let commpared = 2;
 console.log(typeof commpared) //number
